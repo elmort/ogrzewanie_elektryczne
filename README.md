@@ -28,7 +28,7 @@ Schemat blokowy: RYS.: Mat_grzewcze_podstawowy.jpeg
 Przerwanie obwodu zasilającego odbiornik w stanie beznapięciowym.
 Monitorowanie potencjału (0V) przewodu neutralnego w obwodzie napięcia 230V. Wystąpienie zjawiska braku ciągłości obwodu (przerwanie, przecięcie, itp.) spowoduje wysłanie sygnału do kontrolera. Efektem tego będzie powiadomienie odpowiednim komunikatem, wysłanym za pomocą GSM, odbiorcę.
 
-Schemat blokowy: RYS.: Mat_grzewcze_sabotaz.jpeg
+Schemat blokowy: RYS.: Mat_grzewcze_sabotaz.jpeg</br>
 Schemat ideowy: RYS.: Schemat_ideowy.jpeg
 
 
