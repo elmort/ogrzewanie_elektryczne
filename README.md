@@ -8,6 +8,8 @@ Załączanie i wyłączanie odbywać się będzie z użyciem komunikacji GSM.
 Interfejsem służącym powyższemu będzie program na Android lub WindowsPhone.
 Sterownikiem odbierającym sygnały będzie mikrokontroler oparty na układzie Atmega i zawartym na płycie Arduino Uno z modułem GSM. Elementem wykonawczym będzie zestaw przekaźników, sterujących obwody zasilające maty grzewcze w rozdzielni budynku.
 
+By uniknąć niebezpieczeństwa porażenia prądem w momencie przerwania obwodu (na przewodzie neutralnym pojawi się napięcie 230V pomniejszone o rezystancję cewki przekaźnika) planuję zastosować dodatkowe odcięcie przewodu fazowego.
+
 Wymagania sprzętowe powyższej konfiguracji:
 * Płyta Arduino;
 * Moduł GSM;
