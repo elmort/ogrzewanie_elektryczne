@@ -19,7 +19,7 @@ Wymagania systemowe:
 * Oprogramowanie mikrokontrolera (C, C++);
 * Oprogramowanie na telefon (Java, C#);
 
-Schemat blokowy: RYS.: Mat_grzewcze_podstawowy.jpeg
+Schemat blokowy: RYS.: <a href=https://github.com/elmort/ogrzewanie_elektryczne/blob/master/Mat_grzewcze_podstawowy.jpeg>Mat_grzewcze_podstawowy.jpeg</a>
 
 
 
