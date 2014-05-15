@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMS_App_Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ustawienia_button">Ustawienia</string>
+    <string name="ogrzewanie_button">Ogrzewanie</string>
+    <string name="sabotaz_button">Sabotaż</string>
+
+</resources>
