@@ -2,6 +2,7 @@ package pl.elmort.sms_app_activity;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 
@@ -27,7 +28,8 @@ public class MainActivity extends Activity {
 	
 	public void ogrzewanie(View v) 
 	{
-		
+		Intent ogrz = new Intent(this, OgrzewanieActivity.class);
+		startActivity(ogrz);
 	}
 	
 	public void sabotaz(View v)

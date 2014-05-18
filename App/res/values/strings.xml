@@ -7,5 +7,8 @@
     <string name="ustawienia_button">Ustawienia</string>
     <string name="ogrzewanie_button">Ogrzewanie</string>
     <string name="sabotaz_button">Sabotaż</string>
+    <string name="zalacz_ogrzewanie">Załącz strefę 1</string>
+    <string name="wylacz_ogrzewanie">Wyłącz strefę 1</string>
+    <string name="koniec">Zakończ</string>
 
 </resources>

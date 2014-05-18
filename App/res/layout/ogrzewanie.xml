@@ -5,13 +5,64 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/zalacz_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="69dp"
-        android:text="Button" />
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="77dp"
+        android:background="#008000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:onClick="Strefa1"
+        android:text="@string/zalacz_ogrzewanie" />
+
+    <Button
+        android:id="@+id/wylacz_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/zalacz_1"
+        android:layout_alignBottom="@+id/zalacz_1"
+        android:layout_toRightOf="@+id/zalacz_1"
+        android:background="#FF0000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/wylacz_ogrzewanie" />
+
+    <Button
+        android:id="@+id/wylacz_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/zalacz_2"
+        android:layout_alignBottom="@+id/zalacz_2"
+        android:layout_toRightOf="@+id/zalacz_2"
+        android:background="#FF0000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/wylacz_ogrzewanie" />
+
+    <Button
+        android:id="@+id/zalacz_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/zalacz_1"
+        android:layout_below="@+id/zalacz_1"
+        android:layout_marginTop="24dp"
+        android:background="#008000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/zalacz_ogrzewanie" />
+
+    <Button
+        android:id="@+id/zakoncz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/zalacz_2"
+        android:layout_alignRight="@+id/wylacz_2"
+        android:layout_below="@+id/zalacz_2"
+        android:layout_marginTop="32dp"
+        android:onClick="koniec"
+        android:text="@string/koniec" />
 
 </RelativeLayout>
