@@ -8,6 +8,9 @@ import android.telephony.SmsManager;
 public class WyslijSMS 
 {
 	SmsManager mSMSManager = null;
+	WyslijSMS() {
+		mSMSManager = SmsManager.getDefault();
+	}
 	 String mServiceCentreAddr = null;
 	 //metoda klasy SmsManager do wysy³ania Sms
 	public boolean WyslijWiadomosc (String numerTelefonu, String tekstWiadomosci)
