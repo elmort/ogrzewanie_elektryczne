@@ -28,6 +28,7 @@
         android:background="#FF0000"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
+        android:onClick="Strefa1_off"
         android:text="@string/wylacz_ogrzewanie" />
 
     <Button

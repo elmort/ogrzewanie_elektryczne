@@ -23,7 +23,7 @@ public class OdbiornikSMS extends BroadcastReceiver {
 			{
 				msgs[i] = SmsMessage.createFromPdu((byte[]) pdus[i]);
 				message = msgs[i].getMessageBody();
-				
+				//nale¿y spróbowaæ zmieniæ metodê na rozpoznawanie numeru
 				if(msgs[i].getMessageBody().equalsIgnoreCase("Aj"))
 				{
 					Toast.makeText(context,"test",Toast.LENGTH_SHORT).show();
@@ -36,6 +36,7 @@ public class OdbiornikSMS extends BroadcastReceiver {
 				
 			}
 			
+			//w pliku manifestu nale¿a³o dodaæ "Receiver"- odbiornik w Aplication Nodes
 			
 		}
 		// TODO Auto-generated method stub

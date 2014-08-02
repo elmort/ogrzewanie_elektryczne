@@ -10,5 +10,6 @@
     <string name="zalacz_ogrzewanie">Załącz strefę 1</string>
     <string name="wylacz_ogrzewanie">Wyłącz strefę 1</string>
     <string name="koniec">Zakończ</string>
+    <string name="title_activity_ustawienia">ustawienia</string>
 
 </resources>

@@ -23,7 +23,8 @@ public class MainActivity extends Activity {
 	
 	public void ustawienia(View v)
 	{
-	
+		Intent ustaw = new Intent(this, UstawieniaActivity.class);
+		startActivity(ustaw);
 	}
 	
 	public void ogrzewanie(View v) 
